@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "LxMusic Mobile - HarmonyOS"
+    },
+    {
+      "name": "app_name",
+      "value": "落雪音乐"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "落雪音乐主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "落雪音乐"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "用于访问网络获取在线音乐资源"
+    },
+    {
+      "name": "permission_wifi_reason",
+      "value": "用于检测网络状态"
+    },
+    {
+      "name": "permission_read_media_reason",
+      "value": "用于读取本地音乐文件"
+    },
+    {
+      "name": "permission_write_media_reason",
+      "value": "用于保存音乐缓存和导出内容"
+    },
+    {
+      "name": "permission_background_reason",
+      "value": "用于在后台持续播放音乐"
+    },
+    {
+      "name": "permission_float_window_reason",
+      "value": "用于显示桌面歌词悬浮窗"
+    }
+  ]
+}

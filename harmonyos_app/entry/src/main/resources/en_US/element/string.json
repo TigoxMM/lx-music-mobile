@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "LxMusic Mobile - HarmonyOS"
+    },
+    {
+      "name": "app_name",
+      "value": "LX Music"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "LX Music Main Screen"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "LX Music"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "Access network for online music resources"
+    },
+    {
+      "name": "permission_wifi_reason",
+      "value": "Detect network status"
+    },
+    {
+      "name": "permission_read_media_reason",
+      "value": "Read local music files"
+    },
+    {
+      "name": "permission_write_media_reason",
+      "value": "Save music cache and export data"
+    },
+    {
+      "name": "permission_background_reason",
+      "value": "Keep playing music in background"
+    },
+    {
+      "name": "permission_float_window_reason",
+      "value": "Display desktop lyric float window"
+    }
+  ]
+}

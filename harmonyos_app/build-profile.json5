@@ -1,0 +1,43 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "debug",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "./sign/debug/LxMusicMobile_Debug.p12",
+          "storePassword": "0000001CFED583E79F18A40BD37CDEFF7C3463DB19FC8B76E9EFA04716F95C315E67EFF2CFDD5819372C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001CC707BC1F5258CC82E71440D9B20652D62B333B099691C73E51CE18485F969D6AC4E1A7A22D",
+          "profile": "./sign/debug/LxMusicMobile_Debug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "./sign/debug/LxMusicMobile_Debug.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "debug",
+        "compileSdkVersion": "5.0.0(12)",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "targetSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
