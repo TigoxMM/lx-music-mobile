@@ -8,6 +8,9 @@
     "pages/SettingPage",
     "pages/PlayDetailPage",
     "pages/SonglistDetailPage",
-    "pages/CommentPage"
+    "pages/CommentPage",
+    "pages/VersionModal",
+    "pages/PactModal",
+    "pages/SyncModeModal"
   ]
 }

@@ -16,6 +16,8 @@ import { formatPlayTime } from '../utils/CommonUtils';
 import { getData, saveData } from '../database/PreferencesStore';
 import { storageDataPrefix } from '../constants/Constant';
 import { BusinessError } from '@kit.BasicServicesKit';
+import { avSessionService } from './AVSessionService';
+import { backgroundTaskService } from './BackgroundTaskService';
 
 export class PlayerService {
   private static instance: PlayerService;
@@ -100,11 +102,14 @@ export class PlayerService {
         case 'playing':
           this.isPlay = true;
           appEventBus.emit(AppEventBus.EVENT_PLAYER_PLAYING);
+          avSessionService.updatePlaybackState(true);
+          backgroundTaskService.startBackgroundRunning();
           this.startProgressTimer();
           break;
         case 'paused':
           this.isPlay = false;
           appEventBus.emit(AppEventBus.EVENT_PLAYER_PAUSE);
+          avSessionService.updatePlaybackState(false);
           break;
         case 'completed':
           this.isPlay = false;
