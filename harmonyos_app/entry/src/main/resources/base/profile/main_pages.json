@@ -1,5 +1,13 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/SearchPage",
+    "pages/SongListPage",
+    "pages/LeaderboardPage",
+    "pages/MyListPage",
+    "pages/SettingPage",
+    "pages/PlayDetailPage",
+    "pages/SonglistDetailPage",
+    "pages/CommentPage"
   ]
 }
